@@ -91,7 +91,7 @@
             <version>6.1.1</version>
             <scope>test</scope>
         </dependency>
-             <dependencies>
+             
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-webmvc</artifactId>
@@ -109,7 +109,7 @@
             <version>6.1.1</version>
             <scope>test</scope>
         </dependency>
-    </dependencies>
+    
     </dependencies>
 
     <build>
