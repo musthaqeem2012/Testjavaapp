@@ -93,7 +93,12 @@
             <version>6.1.1</version>
             <scope>test</scope>
         </dependency>
-    
+<dependency>
+  <groupId>org.codehaus.mojo</groupId>
+  <artifactId>sonar-maven-plugin</artifactId>
+  <version>3.6.1.1688</version>
+  <type>pom</type>
+</dependency>    
     </dependencies>
 
     <build>
@@ -169,7 +174,7 @@
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>sonar-maven-plugin</artifactId>
-                <version>3.7</version>
+                <version>3.6.1.1688</version>
             </plugin>
         </plugins>
     </build>
